@@ -1,24 +1,36 @@
-# README
+# 🦠 COVID-19 Data Visualization
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 📌 Overview
 
-Things you may want to cover:
+This project is a **Ruby on Rails 8** application that visualizes COVID-19 data using **StimulusJS** and **Chart.js**.  
+The dataset is stored as a JSON file (`covid.json`) inside the `db` folder. The app reads this data, processes it, and displays it as a **line graph** using Chart.js in the frontend.
 
-* Ruby version
+---
 
-* System dependencies
+## 📌 Installation & Setup
 
-* Configuration
+### 🔧 **Prerequisites**
 
-* Database creation
+Ensure you have the following installed:
 
-* Database initialization
+- **Ruby 3.4+**
+- **Rails 8+**
+- **Node.js & Yarn** (for managing JavaScript dependencies)
+- **PostgreSQL**
 
-* How to run the test suite
+### 🚀 **Steps to Run the Project**
 
-* Services (job queues, cache servers, search engines, etc.)
+1. **Clone the Repository**
 
-* Deployment instructions
+```sh
+git clone <repo-url>
+cd <project-folder>
+```
 
-* ...
+2. **Install Dependencies**
+
+```sh
+1. bundle install
+2. yarn install
+3. bin/rails s
+```
